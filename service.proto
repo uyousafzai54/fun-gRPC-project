@@ -1,0 +1,9 @@
+service RouteGuide {
+   // (Method definitions not shown)
+   message Information {
+    int32 numberOfServers = 0;
+    repeated type strings;
+   }
+   rpc GetInformation(Information) {
+   }
+}
