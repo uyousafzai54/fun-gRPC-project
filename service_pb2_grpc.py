@@ -29,7 +29,6 @@ if _version_not_supported:
         RuntimeWarning
     )
 
-
 class RouteGuideStub(object):
     """Missing associated documentation comment in .proto file."""
 
